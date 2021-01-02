@@ -134,3 +134,36 @@ a:hover {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+@media screen and (max-width: 1500px) {
+  h1 {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+  }
+  p {
+    font-size: 1.2rem;
+    object-position: top;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    margin-bottom: 5rem;
+    padding: 0;
+  }
+  .top-container {
+    width: 100%;
+  }
+  .building {
+    width: 75%;
+  }
+
+  .img1 {
+    width: 85%;
+  }
+  .img2 {
+    width: 80%;
+  }
+  .img3 {
+    width: 80%;
+  }
+}
