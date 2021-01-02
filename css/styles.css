@@ -136,9 +136,14 @@ a:hover {
 }
 @media screen and (max-width: 1500px) {
   h1 {
+    font-size: 3rem;
+    padding: 1rem 0rem;
+  }
+  h2 {
     font-size: 2rem;
     padding: 1rem 0rem;
   }
+
   p {
     font-size: 1.2rem;
     object-position: top;
